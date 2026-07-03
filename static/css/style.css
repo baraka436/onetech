@@ -61,7 +61,7 @@ section{
     border: none;
     padding: 10px;
     border-radius: 5px;
-    width: 100%;;
+    width: 100%;
 
 }
 .batt a{
@@ -113,6 +113,7 @@ footer{
     color: white;
     margin: 0;
     padding: 20px;
+    text-align: center;
 }
 #foot{
     text-align: center;
@@ -124,18 +125,84 @@ footer{
     background-color: chocolate;
     padding: 10px;
     border: 1px solid maroon;
-    margin-bottom: 10px;
-    width: 250px;
+    margin-bottom: 130px;
+    width: 80%;
+    height: 150px;
 }
 .team{
     width: 250px;
     height: 200px;
     border-radius: 50%;
 }
-.sect{
+/* .sect{
     margin-right: 600px;
     margin-left: 200px;
-}
-.sect #l{
+} */
+#sect #l{
     list-style-type: none;
+}
+.logos{
+    background-color: whitesmoke;
+    padding:20px;
+    margin-left: 350px;
+
+}
+form{
+    background-color: white;
+    padding: 20px;
+    display: block;
+    height: 410px;
+}
+label,input,textarea{
+    display: block;
+    width: 100%;
+}
+#submit{
+    background-color: brown;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+
+}
+#submit:hover{
+    cursor: pointer;
+    background-color:maroon;
+    box-shadow: 0 0 10px gray
+
+}
+textarea{
+    height: 70px;
+}
+iframe{
+    width: 100%;
+    border: 2px solid maroon;
+    box-shadow: 0 0 15px maroon;
+}
+.contact{
+    display: flex;
+}
+#frm{
+    width: 700px;
+}
+#map{
+    width: 700px;
+}
+.abt{
+    display: flex;
+}
+#story{
+    width: 700px;
+}
+#sect{
+    width: 700px;
+}
+.how{
+    display: flex;
+}
+#con{
+    width: 700px;
+}
+#tem{
+    width: 700px;
 }
