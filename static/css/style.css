@@ -31,3 +31,111 @@ nav a:hover{
     background-color: antiquewhite;
     padding: 20px
 }
+#meno{
+    text-align: center;
+}
+#btn{
+    background-color: brown;
+    border: none;
+    padding: 10px;
+    margin-left: 755px;
+    border-radius: 5px;
+    
+}
+#btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border:none;
+}
+section{
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px ;
+}
+.batt{
+    background-color: brown;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;;
+
+}
+.batt a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: maroon;
+    box-shadow: 0 0 10px gray;
+}
+.batt:hover{
+    cursor: pointer;
+    background-color:maroon;
+    box-shadow: 0 0 10px gray;
+}
+.container{
+    background-color: chocolate;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 5px solid maroon;
+}
+.service{
+    background-color: chocolate;
+    padding: 10px;
+    border: 1px solid maroon;
+    margin-bottom: 20px;
+    flex: 200px;
+    border-radius: 5px;
+    
+}
+.service-card{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    
+
+}
+#feed{
+    text-align: center;
+}
+#fed{
+    text-align: center;
+}
+footer{
+    background-color: maroon;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+#foot{
+    text-align: center;
+}
+.one{
+    text-align: center;
+}
+.step{
+    background-color: chocolate;
+    padding: 10px;
+    border: 1px solid maroon;
+    margin-bottom: 10px;
+    width: 250px;
+}
+.team{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+}
+.sect{
+    margin-right: 600px;
+    margin-left: 200px;
+}
+.sect #l{
+    list-style-type: none;
+}
