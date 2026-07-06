@@ -38,7 +38,7 @@ nav a:hover{
     background-color: brown;
     border: none;
     padding: 10px;
-    margin-left: 755px;
+    
     border-radius: 5px;
     
 }
@@ -205,4 +205,20 @@ iframe{
 }
 #tem{
     width: 700px;
+}
+.afterheader{
+    text-align: center;
+}
+/* responsiveness */
+@media(max-width:768px){
+    .contact,.abt,.how{
+        flex-direction: column;
+    
+    }
+    section,#story,#sect,#con,#tem,#frm,#map{
+        width: 400px;
+    }
+
+    
+
 }
