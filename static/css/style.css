@@ -73,11 +73,15 @@ section{
     cursor: pointer;
     background-color: maroon;
     box-shadow: 0 0 10px gray;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 .batt:hover{
     cursor: pointer;
     background-color:maroon;
     box-shadow: 0 0 10px gray;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
 }
 .container{
     background-color: chocolate;
@@ -94,6 +98,10 @@ section{
     flex: 200px;
     border-radius: 5px;
     
+}
+.service:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
 }
 .service-card{
     display: flex;
@@ -168,7 +176,9 @@ label,input,textarea{
 #submit:hover{
     cursor: pointer;
     background-color:maroon;
-    box-shadow: 0 0 10px gray
+    box-shadow: 0 0 10px gray;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
 
 }
 textarea{
